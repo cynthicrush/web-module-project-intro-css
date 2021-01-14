@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/*--- Navigation Section ---*/
+.first {
+    background-color: #FF764E;
+}
+.second {
+    background-color: #5ED3EB;
+}
+.third {
+    background-color: #FFCD69;
+}
+nav {
+    margin: 40px auto;
+}
+span {
+    margin-left: 175px;
+}
+a { 
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+a:hover{
+    color: grey;
+}
+
+/*--- Header Section ---*/
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    text-align: center;
+}
+.main-text {
+    background-color: #DDB9A3;
+    margin: 70px 80px;
+}
+.round {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-left: 90px;
+}
+.head-text {
+    display: inline-block;
+    margin-left: 60px;
+}
+header {
+    margin: 70px auto;
+}
+p {
+    text-align: center;
+}
+
+/*--- Icon Section ---*/
+.fire-icon {
+    width: 100px;
+    height: 100px;
+    margin-left: 600px;
+}
+.bus-icon {
+    width: 100px;
+    height: 100px;
+    margin-left: 600px;
+}
+.icon-text {
+    width: 300px;
+    margin-left: 500px;
+    margin-bottom: 60px;
+}
+/*--- Footer Section ---*/
+.footer {
+    background-color: #F9E7DC;
+}
+.footer-nav {
+    margin-top: 30px;
+}
+.footer-image {
+    height: 300px;
+    min-width: 100%;
+    object-fit: cover;
+}
